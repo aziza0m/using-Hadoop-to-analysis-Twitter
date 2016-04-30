@@ -38,6 +38,7 @@ namespace AzizaMapReducer.MyClasses
         /// <returns></returns>
         public static string StripHTML(string input)
         {
+            int r = 0;
             return Regex.Replace(input, "<.*?>", String.Empty);
         }
         /// <summary>
